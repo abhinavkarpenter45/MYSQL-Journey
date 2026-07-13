@@ -1,4 +1,4 @@
-# add new column on current table
+#Add new column on current table
 USE school_db;
 ALTER TABLE students 
 ADD contact VARCHAR(10) ;
