@@ -1,3 +1,4 @@
+#Add data 
 INSERT INTO students(id,fname,lname)
 VALUES(1,"Abhinav","Karpenter");
 -- Definition: Inserts a new row into a table by explicitly naming which columns you're 
@@ -24,6 +25,7 @@ INSERT INTO students VALUES(4,"Vedant","Soni"),(5,"Sunil","Carpenter"),(6,"Anil"
 -- Real use case: Bulk-adding data — like importing a class list of 30 new students at once — 
 -- is much faster than running 30 separate INSERT statements, since it's one trip to the database.
 
+# How to viwe data 
 SELECT * FROM students;
 -- Definition: Retrieves every column and every row from a table.
 -- Real use case: Common for quickly inspecting a small table during development, but avoided 
